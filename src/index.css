@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blueviolet; */
+  padding: 10px;
+  gap: 1.5rem;
+  font-size: 20px;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  width: 14%;
+  /* background-color: blue; */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+
+.search {
+  width: calc(100% - 20%);
+  /* background-color: blue; */
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 15px;
+}
+
+.side_bar {
+  width: 16%;
+  height: 80vh;
+  /* background-color: blueviolet; */
+  border-radius: 10px;
+  position: sticky;
+  top: 100px;
+}
+
+.post_section {
+  width: 82%;
+}
+
+
+.side_bar_content {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.side_bar_content .items {
+  padding: 15px;
+}
+
+.side_bar_content .items .icons {
+  margin-right: 10px;
+}
+
+
+
+.post_container {
+  padding: 20px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: row;
+  margin-bottom: 30px;
+  /* background-color: brown; */
+  border-radius: 10px;
+  height: 74vh;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+}
+  
+.text{
+  
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 10px 10px 10px 15px ;
+  height: 410px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+
+
+
+.post_img {
+  display: flex;
+ 
+  margin-top: 27px;
+}
+
+.post_img img {
+  height:430px;
+  width: 50vh;
+  border-radius: 10px;
+  border: 1px solid aqua;
+  ;
+}
+
+
+
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
