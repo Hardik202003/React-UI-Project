@@ -14,4 +14,8 @@ This is a React-based UI project designed to deliver an intuitive and responsive
   
 ## 🚀 Getting Started 
 
--strat with run this Local:   http://localhost:5174/
+First, run the development server:
+
+npm run dev
+
+-strat with run this Local browser:   http://localhost:5174/
